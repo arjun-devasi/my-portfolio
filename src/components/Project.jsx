@@ -19,7 +19,7 @@ const projects = [
   {
     id: 2,
     src: portfolio,
-    href: "https://my-portfolio-lac-seven-92.vercel.app/",
+    href: "https://arjun-devasi.vercel.app/",
     code: "https://github.com/arjun-devasi/my-portfolio",
     name: "My Portfolio",
     skills: "React, tailwind css",
