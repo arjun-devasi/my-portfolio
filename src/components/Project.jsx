@@ -4,7 +4,7 @@ import project4 from "../assets/image/project4.png";
 import calculat from "../assets/image/calculat.png";
 import gharkhana from "../assets/image/gharkhana.png";
 import dice from "../assets/image/dice.png";
-import rolling from "../assets/image/rolling.png";
+import spotify from "../assets/image/spotify-clone.png";
 import portfolio from "../assets/image/portfolio.png";
 import { Link } from "react-scroll";
 const projects = [
@@ -26,10 +26,10 @@ const projects = [
   },
   {
     id: 3,
-    src: dice,
-    href: "https://arjun-devasi.github.io/js-project/Dice-Roll/",
-    code: "https://github.com/arjun-devasi/js-project/tree/main/Dice-Roll",
-    name: "Dice game",
+    src: spotify,
+    href: "https://arjun-devasi.github.io/learnandbuild/spotify-clone/",
+    code: "https://github.com/arjun-devasi/learnandbuild",
+    name: "Spotify-HomePage",
     skills: "Html,css,Javascript",
   },
   {
@@ -48,12 +48,13 @@ const projects = [
     name: "Calculator",
     skills: "Html,css,Javascript",
   },
+
   {
     id: 6,
-    src: rolling,
-    href: "https://arjun-devasi.github.io/js-project/gessing/",
-    code: "https://github.com/arjun-devasi/js-project",
-    name: "Guessing Number",
+    src: dice,
+    href: "https://arjun-devasi.github.io/js-project/Dice-Roll/",
+    code: "https://github.com/arjun-devasi/js-project/tree/main/Dice-Roll",
+    name: "Dice game",
     skills: "Html,css,Javascript",
   },
 ];
