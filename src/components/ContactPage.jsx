@@ -120,12 +120,14 @@ function Contact() {
                 <input
                   type="text"
                   name="name"
+                  required="true"
                   placeholder="Name"
                   className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
                 ></input>
                 <input
                   type="email"
                   name="email"
+                  required="true"
                   placeholder="email"
                   className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
                 ></input>
@@ -133,6 +135,7 @@ function Contact() {
                   className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
                   type="textarea"
                   name="message"
+                  required="true"
                   rows="10"
                   placeholder="message"
                 ></textarea>
