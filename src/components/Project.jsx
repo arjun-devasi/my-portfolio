@@ -27,9 +27,9 @@ const projects = [
   {
     id: 3,
     src: spotify,
-    href: "https://arjun-devasi.github.io/learnandbuild/spotify-clone/",
+    href: "https://arjun-devasi.github.io/learnandbuild/AJ-Music/",
     code: "https://github.com/arjun-devasi/learnandbuild",
-    name: "Spotify-HomePage",
+    name: "Music-webPage",
     skills: "Html,css,Javascript",
   },
   {
