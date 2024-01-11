@@ -40,7 +40,7 @@ const SocialLink = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/",
+      href: "/assets/arjun-devasi.pdf",
       style: "rounded-br-md",
       download: true,
     },
