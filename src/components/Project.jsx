@@ -2,7 +2,7 @@ import React from "react";
 import stopwatch from "../assets/image/stopwatch.png";
 import project4 from "../assets/image/project4.png";
 import calculat from "../assets/image/calculat.png";
-import gharkhana from "../assets/image/gharkhana.png";
+import gharkhana from "../assets/image/chefcompass.png";
 import dice from "../assets/image/dice.png";
 import spotify from "../assets/image/spotify-clone.png";
 import portfolio from "../assets/image/portfolio.png";
@@ -11,10 +11,10 @@ const projects = [
   {
     id: 1,
     src: gharkhana,
-    href: "https://arjun-devasi.github.io/my-project/project5/",
-    code: "https://github.com/arjun-devasi/my-project/tree/master/project5",
-    name: "home Page restaurant",
-    skills: "Html,Css",
+    href: "https://chef-compass.vercel.app/",
+    code: "https://github.com/arjun-devasi/chef-Compass",
+    name: "chef's Compass",
+    skills: "Html,Css,JavaScript",
   },
   {
     id: 2,
