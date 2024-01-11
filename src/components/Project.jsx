@@ -1,5 +1,5 @@
 import React from "react";
-import stopwatch from "../assets/image/stopwatch.png";
+import burger from "../assets/image/yummy-burger.png";
 import project4 from "../assets/image/project4.png";
 import calculat from "../assets/image/calculat.png";
 import gharkhana from "../assets/image/chefcompass.png";
@@ -14,7 +14,7 @@ const projects = [
     href: "https://chef-compass.vercel.app/",
     code: "https://github.com/arjun-devasi/chef-Compass",
     name: "chef's Compass",
-    skills: "Html,Css,JavaScript",
+    skills: "Html, Css, JavaScript",
   },
   {
     id: 2,
@@ -24,39 +24,40 @@ const projects = [
     name: "My Portfolio",
     skills: "React, tailwind css",
   },
+
   {
     id: 3,
+    src: burger,
+    href: "https://burger-pro-frontend.vercel.app/",
+    code: "https://github.com/arjun-devasi/burger-pro-frontend",
+    name: "Yummy Burger",
+    skills: "MERN STACK",
+  },
+  {
+    id: 4,
     src: spotify,
     href: "https://arjun-devasi.github.io/learnandbuild/AJ-Music/",
     code: "https://github.com/arjun-devasi/learnandbuild",
     name: "Music-webPage",
     skills: "Html,css,Javascript",
   },
-  {
-    id: 4,
-    src: stopwatch,
-    href: "https://arjun-devasi.github.io/js-project/stop-watch/",
-    code: "https://github.com/arjun-devasi/js-project",
-    name: "Stopwatch",
-    skills: "Html,css,Javascript",
-  },
-  {
-    id: 5,
-    src: calculat,
-    href: "https://arjun-devasi.github.io/js-project/calculator/",
-    code: "https://github.com/arjun-devasi/js-project",
-    name: "Calculator",
-    skills: "Html,css,Javascript",
-  },
+  // {
+  //   id: 5,
+  //   src: calculat,
+  //   href: "https://arjun-devasi.github.io/js-project/calculator/",
+  //   code: "https://github.com/arjun-devasi/js-project",
+  //   name: "Calculator",
+  //   skills: "Html,css,Javascript",
+  // },
 
-  {
-    id: 6,
-    src: dice,
-    href: "https://arjun-devasi.github.io/js-project/Dice-Roll/",
-    code: "https://github.com/arjun-devasi/js-project/tree/main/Dice-Roll",
-    name: "Dice game",
-    skills: "Html,css,Javascript",
-  },
+  // {
+  //   id: 6,
+  //   src: dice,
+  //   href: "https://arjun-devasi.github.io/js-project/Dice-Roll/",
+  //   code: "https://github.com/arjun-devasi/js-project/tree/main/Dice-Roll",
+  //   name: "Dice game",
+  //   skills: "Html,css,Javascript",
+  // },
 ];
 const Portfolio = () => {
   return (
